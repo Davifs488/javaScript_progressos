@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JavaScript</title>
+<script>
+
+	    //Condicionais if - else
+          //Menor de 18 -> Menor de idade (meia)
+	       // Entre 18 e 60 -> Adulto (meia apenas com carteirinha)
+	        // Maiores de 60 anos (meia)
+
+	       const idades1 = 55  ;
+	        const temCarteirinhas1 =  false ;
+
+	        const clienAdultos1 = idades1 >= 18 && idades1 <= 60 ;
+	        //maior idade
+
+	        if( clienAdultos1 && ! temCarteirinhas1  )  { 
+
+	//      if (clienAdultos1 &&  temCarteirinhas1  === false ) {
+	        	document.write("INTEIRA  <br/> " ) ;
+	        
+	        } else {
+	        	document.write("MEIA  <br/> " ) ;
+	        	       }
+
+
+
+
+
+	        //Condicionais if - else
+          //Menor de 18 -> Menor de idade (meia)
+	       // Entre 18 e 60 -> Adulto (meia apenas com carteirinha)
+	        // Maiores de 60 anos (meia)
+
+	       const idades2= 15;
+	        const temCarteirinhas2=  false ;
+
+	        const clienAdultos2= idades2 >=   18  &&  idades2  <=60 ;
+	        //maior idade
+
+	        if( clienAdultos2  <  18  ||  clienAdultos2 > 60 || ( clienAdultos2    &&   temCarteirinhas2 ))     { 
+	        	document.write (" MEIA    <br/> " ) ;
+
+	        }       else {
+	        	document.write("  INTEIRA   <br / > "  )  ;
+	        	       }
+
+	       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          //Condicionais if - else
+          //Menor de 18 -> Menor de idade (meia)
+	       // Entre 18 e 60 -> Adulto (meia apenas com carteirinha)
+	        // Maiores de 60 anos (meia)
+
+	        const idade = 70;
+	        const temCarteirinha = false;
+
+
+	        if (idade <= 18) {
+	        	//menor idade
+	        	document.write("MEIA");
+	        } else if (idade <= 60) {
+	        	//adulto
+	        	if (temCarteirinha === true){
+	        		//adulto tem carteirinha
+	        		document.write("MEIA");
+
+	        	} else {
+	        		//adulto sem carteirinha
+	        		document.write("INTEIRA");
+	        	}
+	        } else {
+	        	//idoso
+	        	document.write("Meia");
+	        }
+	        	
+	        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             /*
+     
+      let precoDoproduto1 = 17.29;
+      let precoDoproduto2 = 0.80;
+      let precoDoproduto3 = 4.85;
+        
+
+        if( precoDoproduto1 <= 18) {
+        	document.write("Comprei o produto 1 <br/>");
+        }
+
+        if (precoDoproduto2 < 3) {
+        	if(precoDoproduto2 >= 1.5){
+             document.write("comprei o produto 2 <br/>");
+
+        } else {
+
+        	document.write("Tem algo errado com o produto 2 <br/>");
+
+        }
+
+
+       }
+
+
+       document.write("Comprei o produto 3"); 
+
+                 */
+    
+
+
+     
+
+
+
+</script>
+</head>
+
+
+<body>
+</body>
+</html>
