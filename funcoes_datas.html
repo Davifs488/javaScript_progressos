@@ -9,6 +9,8 @@
 
      // EXEMPLO DE ESCOPOS : funções DATAS
 
+
+               /*
      var data = new Date();
 
      document.write("Dia e :" + data.getDate('')) ;
@@ -22,8 +24,69 @@
 
       document.write(data.getDate('') + " / " + (data.getMonth() + 1) + " / " + data.getFullYear()) ;
      document.write("<br />") ;
+
+
+               */
+
+
+
+
+    //adicionar / remover dia
+
+       var data = new Date();
+
+       document.write(data.toString ());
+       data.setDate(data.getDate () +3);
+       //adicionei 3
+       document.write("<hr />");
+       document.write(data.toString());
+
+       document.write("<br/> <hr /> <br/>  ");
         
         
+        document.write(data.toString ());
+       data.setDate(data.getDate () -5);
+       //removi 5
+       document.write("<hr />");
+       document.write(data.toString());
+         
+
+
+       //adicionar / remover meses
+        
+        
+        document.write("<br/> <hr /> <br/>  ");        
+        
+        document.write(data.toString ());
+       data.setMonth(data.getMonth () -2);
+       //removi 5
+       document.write("<hr />");
+       document.write(data.toString());
+
+        document.write("<br/> <hr /> <br/>  ");        
+        
+        document.write(data.toString ());
+       data.setMonth(data.getMonth () +3);
+       //adicionei 3
+       document.write("<hr />");
+       document.write(data.toString());
+
+  // remover anos
+
+document.write("<br/> <hr /> <br/>  ");        
+        
+        document.write(data.toString ());
+       data.setFullYear(data.getFullYear () +2);
+       //adicionei 2
+       document.write("<hr />");
+       document.write(data.toString());
+
+document.write("<br/> <hr /> <br/>  ");   
+       document.write(data.toString ());
+       data.setFullYear(data.getFullYear () -3);
+       //removi 3
+       document.write("<hr />");
+       document.write(data.toString());
 
 
 
